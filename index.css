@@ -1,0 +1,134 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.Social-Buttons-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.heading {
+  font-family: lobster;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Like-button {
+  background-color: #eab308;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: Roboto;
+  height: 15px;
+  width: 30px;
+  text-align: center;
+}
+
+.comment-button {
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: Roboto;
+  height: 20px;
+  width: 40px;
+  text-align: center;
+}
+
+.Share-button {
+  background-color: #eab308;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 300;
+  color: #1d4ed8;
+  font-family: Roboto;
+  height: 15px;
+  width: 30px;
+  text-align: center;
+}
+
+@media screen AND (min-width: 768px) {
+  .Social-Buttons-bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .heading {
+    font-family: lobster;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 15px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .Like-button {
+    background-color: #eab308;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: Roboto;
+    height: 15px;
+    width: 30px;
+    text-align: center;
+  }
+
+  .comment-button {
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: Roboto;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+  }
+
+  .Share-button {
+    background-color: #eab308;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #1d4ed8;
+    font-family: Roboto;
+    height: 15px;
+    width: 30px;
+    text-align: center;
+  }
+}
